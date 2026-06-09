@@ -14,6 +14,29 @@ class Solution:
 
         return val
     
+    def romanToInt(self, s: str):
+
+        dic = {
+            'I' : 1,
+            'V' : 5,
+            'X' : 10,
+            'L' : 50,
+            'C' : 100,
+            'D' : 500,
+            'M' : 1000,
+        }
+        
+        ans = 0
+        for i in range(len(s)-1):
+            if dic.get(s[i]) < dic.get(s[i+1]):
+                ans-=dic.get(s[i])
+            else:
+                ans+=dic.get(s[i])
+                
+        ans += dic.get(s[-1])
+
+        return ans
+
 def main():
     sol = Solution()
     va = sol.intToRoman(1043)
