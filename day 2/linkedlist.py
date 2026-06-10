@@ -17,7 +17,7 @@ class linkedlist:
 
         current = self.head
 
-        while current.next:
+        while current.next  and current.data != 0:
             current = current.next
 
         current.next = newNode
