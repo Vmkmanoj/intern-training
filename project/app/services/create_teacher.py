@@ -99,5 +99,24 @@ def deleteById(user_id,db):
     return {"message":"Teacher deleted"}
 
 
+def update(teacherRespone,user_id,db):
+    
+    teacher = db.query(Teacher).filter(user_id == Teacher).first()
+
+    teacher.name = teacherRespone.name
+    teacher.age = teacherRespone.age
+    teacher.city = teacherRespone.city
+
+    db.commit()
+    db.refers(teacher)
+
+    return {
+        "message" : "Updated"
+    }
+
+
+
+
+
 
 

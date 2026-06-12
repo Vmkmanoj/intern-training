@@ -2,7 +2,7 @@ from fastapi import Depends , APIRouter
 from sqlalchemy.orm import Session
 from ..database.session import get_db
 from ..schema.teacherRespone import TeacherRespone
-from ..services.create_teacher import create_new_teacher , getAllTeacher , getByIdTeacher, deleteById
+from ..services.create_teacher import create_new_teacher , getAllTeacher , getByIdTeacher, deleteById ,update
 
 
 router = APIRouter()
@@ -25,6 +25,10 @@ def getById(user_id, db: Session = Depends(get_db)):
 def getDeleteById(userId , db : Session = Depends(get_db)):
     print("deleteId" , userId)
     return deleteById(userId,db)
+
+@router.patch("updated/{user_id}")
+def updateById(teacherRespone : TeacherRespone ,userId , db : Session =  Depends(get_db)):
+    return update(teacherRespone,userId,db)
 
 
 
