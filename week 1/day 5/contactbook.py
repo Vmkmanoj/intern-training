@@ -1,16 +1,16 @@
 
 from datetime import datetime
-class ContectBook:
+class ContactBook:
     def __init__(self):
         self.data = []
 
-    def addContect(self):
+    def addContact(self):
         print("---------Contect add-----------")
         name = input("Enter the Name : ")
         age = int(input("Enter the Age : "))
         phoneNumber = int(input("Enter the phoneNumber : "))
 
-        contectbook = {
+        contactbook = {
             "id" : len(self.data) + 1,
             "name" : name,
             "age" : age,
@@ -18,14 +18,14 @@ class ContectBook:
             "time" : datetime.today()
         } 
 
-        self.data.append(contectbook)
+        self.data.append(contactbook)
 
-    def contectList(self):
+    def contactList(self):
         print("---------list Contect----------")
         for i in self.data:
             print(i,end = "\n")
 
-    def findContect(self):
+    def findContact(self):
         
         name = input("enter the fiding contect")
 
@@ -37,16 +37,16 @@ class ContectBook:
            
 
 def main():
-    obj = ContectBook()
+    obj = ContactBook()
     while True:
         print(""" 1.add conntect \n 2.contact list \n 3.findContect """)
         choose = int(input("Enter the Choose : "))
         if choose == 1:
-            obj.addContect()
+            obj.addContact()
         elif choose == 2:
-            obj.contectList()
+            obj.contactList()
         elif choose == 3:
-            obj.findContect()
+            obj.findContact()
 
 
 if __name__ == "__main__":

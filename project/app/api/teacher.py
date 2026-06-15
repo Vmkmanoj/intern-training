@@ -2,7 +2,7 @@ from fastapi import Depends , APIRouter
 from sqlalchemy.orm import Session
 from ..database.session import get_db
 from ..schema.teacherRespone import TeacherRespone
-from ..services.create_teacher import create_new_teacher , getAllTeacher , getByIdTeacher, deleteById ,update
+from app.services import create_new_teacher , getAllTeacher , getByIdTeacher, deleteById ,update
 
 
 router = APIRouter()
