@@ -3,10 +3,13 @@ class Bank:
         self.name = name
         self.pin = pin
         self.balance_amount = balance
+        self.minimum = 1000
 
     def withdraw(self, amount):
         if amount > self.balance_amount:
             print("Insufficient Balance")
+        elif self.balance_amount - amount < self.minimum:
+            print(f"You must maintain a minimum balance of {self.minimum}")
         else:
             self.balance_amount -= amount
             print(f"Withdraw Successful")
