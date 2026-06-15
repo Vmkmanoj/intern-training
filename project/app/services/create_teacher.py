@@ -2,6 +2,7 @@ from ..model.teacherTable import Teacher
 from ..schema.teacherRespone import TeacherRespone
 from ..redisConifg import redic_client as r
 import json
+from fastapi import HTTPException
 
 
 def create_new_teacher(teacherRespone : TeacherRespone , db):
@@ -52,7 +53,17 @@ def getAllTeacher(db):
 
     return list_teacher
 
-def getByIdTeacher(user_id, db):
+def getByIdTeacher(user_id, db , userPermission):
+
+    allowed = False
+
+    for user in userPermission:
+        if user["Id"] == user_id:
+            allowed = True
+            break
+    
+    if not allowed:
+        raise HTTPException(status_code=401,detail="your not allowed here")
 
     cached_teacher = r.get(f"teacher:{user_id}")
 
@@ -64,7 +75,7 @@ def getByIdTeacher(user_id, db):
 
     if not teacher:
         return None
-
+ 
     teacher_data = {
         "id": str(teacher.Id),
         "name": teacher.Name,
@@ -75,7 +86,7 @@ def getByIdTeacher(user_id, db):
     r.setex(
         f"teacher:{user_id}",
         60,
-        json.dumps(teacher_data)
+        json.dumps(teacher_data) 
     )
 
     print("Data from Database")
@@ -113,10 +124,3 @@ def update(teacherRespone,user_id,db):
     return {
         "message" : "Updated"
     }
-
-
-
-
-
-
-

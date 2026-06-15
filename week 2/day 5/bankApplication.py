@@ -1,39 +1,73 @@
 class Bank:
-    def __init__(self,name,amount):
+    def __init__(self, name, pin, balance):
         self.name = name
-        self.amount = amount
+        self.pin = pin
+        self.balance_amount = balance
 
-    def withdraw(self,amount):
+    def withdraw(self, amount):
+        if amount > self.balance_amount:
+            print("Insufficient Balance")
+        else:
+            self.balance_amount -= amount
+            print(f"Withdraw Successful")
+            print(f"Current Balance: {self.balance_amount}")
 
-        if self.amount < amount:
-            return {"insufficient balance"}
+    def deposit(self, amount):
+        self.balance_amount += amount
+        print(f"Deposit Successful")
+        print(f"Current Balance: {self.balance_amount}")
 
-        self.amount -= amount
-        return {f"Your Current Balance is {self.amount}"}
-    
-    def deposit(self,amount):
-
-        if amount <= 0:
-            return {"enter the Currect Amount"}
-        
-        self.amount+= amount
-        return {f"Your Current Balance is {self.amount}"}
-    
     def balance(self):
-        return {f"Your Current Balance is {self.amount}"}
+        print(f"Current Balance: {self.balance_amount}")
 
-bank = Bank("Manojkumar",1000)
-while True:
-    print("""1.Balance \n 2.Deposit \n 3.withdraw""")
-    choose = int(input("Enter the choose"))
-    if choose == 1:
-        print(bank.balance())
-    elif choose == 2:
-        amount = int(input("Enter the Amount :"))
-        print(bank.deposit(amount))
-    elif choose == 3:
-        amount = int(input("Enter the Amount"))
-        print(bank.withdraw(amount))
-    else:
-        break
 
+bank = Bank("Manoj", 1234, 1000)
+
+print("Welcome to ATM")
+
+pin = int(input("Enter PIN: "))
+
+if pin == bank.pin:
+    contine = True
+    while contine:
+        print("""
+        1. Withdraw
+        2. Deposit
+        3. Balance
+        4. Exit
+        """)
+
+        choice = int(input("Enter Choice: "))
+
+        if choice == 1:
+            amount = int(input("Enter Amount: "))
+            bank.withdraw(amount)
+            cho = input("want to contine yes/no : ")
+            if cho == "yes":
+                contine = True
+            elif cho == "no":
+                contine = False
+
+
+        elif choice == 2:
+            amount = int(input("Enter Amount: "))
+            bank.deposit(amount)
+            cho = input("want to contine yes/no : ")
+            if cho == "yes":
+                contine = True
+            elif cho == "no":
+                contine = False
+            
+
+        elif choice == 3:
+            bank.balance()
+
+        elif choice == 4:
+            print("Thank You")
+            break
+
+        else:
+            print("Invalid Choice")
+
+else:
+    print("Invalid PIN")
