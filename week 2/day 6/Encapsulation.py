@@ -12,12 +12,12 @@ class Bank:
             print(f"You must maintain a minimum balance of {self.__minimum}")
         else:
             self.__balance_amount -= amount
-            print(f"Withdraw Successful")
+            print("Withdraw Successful")
             print(f"Current Balance: {self.__balance_amount}")
 
     def deposit(self, amount):
         self.__balance_amount += amount
-        print(f"Deposit Successful")
+        print("Deposit Successful")
         print(f"Current Balance: {self.__balance_amount}")
 
     def balance(self):
