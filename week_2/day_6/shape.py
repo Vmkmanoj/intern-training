@@ -36,7 +36,6 @@ class Circle(Shape):
 
 def mainRentangle():
     rectangle1 = Rectangle(10, 5)
-    rectangle2 = Rectangle(10, 5)
     circle = Circle(7)
 
     print(len(rectangle1))
