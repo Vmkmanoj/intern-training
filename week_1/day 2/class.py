@@ -24,7 +24,6 @@ class Users:
         with open("context.txt","r") as f:
             print(f.read())
 
-
     def addMore(self):
 
         name = "manoj"
@@ -46,7 +45,8 @@ class Users:
                     del[i]
                 
     
-
+with open("context.txt","r") as f:
+    f.read()
 
 
 

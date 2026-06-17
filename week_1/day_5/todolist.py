@@ -20,7 +20,7 @@ class todolist:
         self.todo.remove(data)
 
 
-def main():
+def mainTodo():
     obj = todolist()
     obj.addtask(10)
     obj.addtask(20)
@@ -37,6 +37,6 @@ def main():
     obj.showtask()
 
 if __name__ == "__main__":
-    main()
+    mainTodo()
 
 

@@ -33,17 +33,19 @@ class Circle(Shape):
     def area(self):
         return math.pi * self.radius * self.radius
     
-rectangle1 = Rectangle(10, 5)
-rectangle2 = Rectangle(10, 5)
-circle = Circle(7)
 
-print(len(rectangle1))
+def mainRentangle():
+    rectangle1 = Rectangle(10, 5)
+    rectangle2 = Rectangle(10, 5)
+    circle = Circle(7)
 
-print("Shapes:")
-print(rectangle1)
-print(f"Rectangle Area: {rectangle1.area()}")
+    print(len(rectangle1))
 
-print(f"Circle Area: {circle.area():.3f}")
+    print("Shapes:")
+    print(rectangle1)
+    print(f"Rectangle Area: {rectangle1.area()}")
+
+    print(f"Circle Area: {circle.area():.3f}")
 
 
-print(f"{math.pi:.2f}")
+    print(f"{math.pi:.2f}")
