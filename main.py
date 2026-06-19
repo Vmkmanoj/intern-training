@@ -1,18 +1,22 @@
-from week_1.day_5 import main ,mainTodo
-from week_2.day_5 import mainBankfunction
-from week_2.day_6 import mainRentangle
+from week_1.day_5 import mainContect ,mainTodo
+from week_1.day_2 import sayHello
+from week_1.day_3 import evenAndNegative , higher , score
+from week_1.day_4 import fizzbuzz , sums , tables , targeted
 
-# main()
-# todolist()
-choose = int(input("Enter the choose "))
-if choose == 1:
-    mainBankfunction()
-elif choose == 2:
-    main()
-elif choose == 3:
-    mainTodo()
-elif choose == 4:
-    mainRentangle()
-else:
-    pass
+
+
+
+sayHello()
+evenAndNegative()
+higher()
+score()
+mainContect()
+mainTodo()
+fizzbuzz()
+sums()
+tables()
+targeted()
+
+
+
 

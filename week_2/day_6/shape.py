@@ -35,6 +35,7 @@ class Circle(Shape):
     
 
 def mainRentangle():
+    print("-"*30,"week 2 day 6","-"*30)
     rectangle1 = Rectangle(10, 5)
     circle = Circle(7)
 

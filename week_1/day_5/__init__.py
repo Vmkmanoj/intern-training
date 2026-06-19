@@ -1,8 +1,8 @@
-from .contactbook import main 
-from .todolist import mainTodo
+from week_1.day_5.contactbook import mainContect 
+from week_1.day_5.todolist import mainTodo
 
 
 __all__ = [
-    "main",
+    "mainContect",
     "mainTodo"
 ]
