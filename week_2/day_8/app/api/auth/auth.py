@@ -9,7 +9,6 @@ from app.utils.jwt import create_access_token
 authRouter = APIRouter()
 
 
-
 @authRouter.get("/login",response_model= UserLoginSuccess)
 def login(user : UserLogin, db : Session = Depends(get_db)):
 
@@ -44,11 +43,11 @@ def register(userRegister : Users, db : Session = Depends(get_db)):
     print(len(userRegister.password))
 
     userResponse = UserTable(
-    username=userRegister.username,
-    email=userRegister.email,
-    password=hash_password(userRegister.password),
-    profilepic=userRegister.profilepic,
-    isOnline=userRegister.isOnline
+        username=userRegister.username,
+        email=userRegister.email,
+        password=hash_password(userRegister.password),
+        profilepic=userRegister.profilepic,
+        isOnline=userRegister.isOnline  
     )
     
 

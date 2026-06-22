@@ -36,7 +36,7 @@ class ContactBook:
         print("No contact found")
            
 
-def main():
+def mainContect():
     obj = ContactBook()
     while True:
         print(""" 1.add conntect \n 2.contact list \n 3.find Contact """)
@@ -49,8 +49,7 @@ def main():
             obj.findContact()
 
 
-if __name__ == "__main__":
-    main()
+
 
 
 

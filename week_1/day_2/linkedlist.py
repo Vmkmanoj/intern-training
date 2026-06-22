@@ -48,7 +48,6 @@ class linkedlist:
         for i in range(index):
             current = current.next
 
-
         newNode.next = current.next
         current.next = newNode
         

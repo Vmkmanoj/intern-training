@@ -2,6 +2,8 @@ from abc import ABC , abstractmethod
 
 # encapsulation
 
+print("-"*30, "day 3 encapsulation" , "-"*30)
+
 class History:
     def __init__(self,name):
         self.__name = name
@@ -14,6 +16,8 @@ class History:
 history = History("hello mano")
 
 print(history.getName())
+
+print("-"*30, "day 3 abstraction" , "-"*30)
 
 # abstraction
 
@@ -34,6 +38,8 @@ obj.dog()
 
 # inhertance
 
+print("-"*30, "day 3 inhertance" , "-"*30)
+
 
 class A:
     def hello(self):
@@ -53,7 +59,10 @@ obj1.cat()
 obj1.dog()
 
 
+print("-"*30, "day 3 polymarprisam" , "-"*30)
+
 # poly
+
 class Animal:
     def sound(self):
         print("Some sound")

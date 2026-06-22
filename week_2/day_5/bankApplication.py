@@ -28,6 +28,9 @@ class Bank:
         print(f"Current Balance: {self.balance_amount}")
 
 def mainBankfunction():
+
+    print("-"*30,"Week 2 day 5","-"*30)
+
     bank = Bank("Manoj", 1234, 1000)
 
     print("Welcome to ATM")
