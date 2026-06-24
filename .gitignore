@@ -1,0 +1,55 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python version file
+.python-version
+
+# Logs
+*.log
+
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Ruff
+.ruff_cache/
+
+# UV cache
+.uv/
+
+uv.lock
+
