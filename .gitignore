@@ -52,4 +52,4 @@ htmlcov/
 .uv/
 
 uv.lock
-pyproject.toml
+
