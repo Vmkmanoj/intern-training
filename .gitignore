@@ -6,9 +6,9 @@ env/
 # Python cache
 
 __pycache__/
+**/__pycache__/
+*.py[cod]
 *.pyc
-*.pyo
-*.pyd
 
 # Environment variables
 .env
@@ -29,9 +29,6 @@ Thumbs.db
 # Logs
 *.log
 
-# SQLite databases
-*.db
-*.sqlite3
 
 # Build files
 build/
@@ -53,3 +50,6 @@ htmlcov/
 
 # UV cache
 .uv/
+
+uv.lock
+pyproject.toml
