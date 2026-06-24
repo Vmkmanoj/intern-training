@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from app.schema.post import Poster
 from app.models.post import Post
 from datetime import datetime
-
+from uuid import UUID
 
 
 postRouter = APIRouter()
@@ -29,6 +29,17 @@ def postGet(userPost : Poster,
         "message" : "post added successfully...!",
         "postId" : post.postId
     }
+
+
+@postRouter.get("/get-post/{postId}")
+def getPost(postId : UUID,db : Session = Depends(get_db)):
+
+    post = db.query(Post).filter(Post.postId == postId).first()
+
+    if not post:
+        raise HTTPException(status_code=409, detail= "post not found")
+    
+    return post
 
 
 

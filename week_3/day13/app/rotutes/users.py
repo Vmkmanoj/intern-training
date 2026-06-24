@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from app.schema.users import UsersData
 from app.models.users import Users
 from datetime import datetime
-
+from uuid import UUID
 
 
 userPoster = APIRouter()
@@ -46,6 +46,17 @@ def createUser(userdetails : UsersData,
         "userId" : usersAdd.usersId
     }
     
+
+@userPoster.get("/get-user/{userId}")
+def getPost(userId : UUID,db : Session = Depends(get_db)):
+
+    post = db.query(Users).filter(Users.usersId == userId).first()
+
+    if not post:
+        raise HTTPException(status_code=409, detail= "post not found")
+    
+    return post
+
 
 
 
