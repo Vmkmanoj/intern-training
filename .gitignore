@@ -52,7 +52,3 @@ htmlcov/
 
 # UV cache
 .uv/
-
-# Ignore local migration SQL dumps (optional)
-day11.sql
-day12.sql
