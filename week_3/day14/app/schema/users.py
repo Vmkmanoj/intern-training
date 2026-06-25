@@ -9,4 +9,3 @@ class UsersData(BaseModel):
     updatedby: str
 
 
-

@@ -41,6 +41,58 @@ def getPost(postId : UUID,db : Session = Depends(get_db)):
     
     return post
 
+@postRouter.delete("/post-delete/{postId}")
+def postDelete(postId: UUID, db: Session = Depends(get_db)):
+    post = db.query(Post).filter(Post.postId == postId).first()
+
+    if not post:
+        raise HTTPException(
+            status_code=404,
+            detail="Post not found"
+        )
+
+    db.delete(post)
+    db.commit()
+
+    return {
+        "message": "Post deleted successfully"
+    }
+
+
+@postRouter.patch("/post-update/{postId}")
+def update_post(
+    postId: UUID,
+    description: str ,
+    db: Session = Depends(get_db)
+):
+    post = db.query(Post).filter(
+        Post.postId == postId
+    ).first()
+
+    if not post:
+        raise HTTPException(
+            status_code=404,
+            detail="Post not found"
+        )
+
+    if description is not None:
+        post.description = description
+
+    db.commit()
+    db.refresh(post)
+
+    return {
+        "message": "Post updated successfully",
+        "postId": post.postId
+    }
+
+
+
+
+
+
+
+
 
 
 
