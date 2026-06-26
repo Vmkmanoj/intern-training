@@ -12,4 +12,3 @@ app = FastAPI()
 
 run_migrations()
 app.include_router(apiRouter)
-
