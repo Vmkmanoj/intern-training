@@ -68,7 +68,7 @@ function App() {
   // Connect to WebSocket
   const connectToChat = (sid: string) => {
     socket.current = new WebSocket(
-      `ws://localhost:8000/chat/ws/${username}/${sid}`
+      `ws://localhost:8000/web/ws/${username}/${sid}`
     );
 
     socket.current.onopen = () => {
@@ -110,7 +110,7 @@ function App() {
   }, [messages]);
 
   useEffect(() => {
-  const eventSource = new EventSource("http://localhost:8000/chat/clock");
+  const eventSource = new EventSource("http://localhost:8000/sse/clock");
 
   eventSource.onmessage = (event) => {
     console.log(event.data);
