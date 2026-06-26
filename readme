@@ -19,3 +19,4 @@ Week 3 Overview
 - Day 13 and Day 14 contain Python projects that use FastAPI, database setup, routing, and migration-related files.
 - The day 14 project includes a FastAPI app with routers, database connection, and migration runner files to create and manage the backend structure.
 - The run.py file is used to start the application and run formatting and linting checks before launching the server.
+-Day 15 working on SSE and webshocket connecting with chatapp , connected with sql
