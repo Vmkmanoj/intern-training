@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from datetime import datetime
+
 
 class UsersData(BaseModel):
     userName: str
@@ -7,5 +7,3 @@ class UsersData(BaseModel):
     about: str
     createdby: str
     updatedby: str
-
-
