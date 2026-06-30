@@ -11,4 +11,4 @@ class ChatSession(Base):
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     session_name = Column(String, nullable=False)
     messages = Column(MutableList.as_mutable(JSONB), default=list)
-    createdby = Column(String, nullable=False)
+   
