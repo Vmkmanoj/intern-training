@@ -65,7 +65,6 @@ function App() {
     connectToChat(sid);
   };
 
-  // Connect to WebSocket
   const connectToChat = (sid: string) => {
     socket.current = new WebSocket(
       `ws://localhost:8000/web/ws/${username}/${sid}`

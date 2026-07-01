@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Profile</h1>
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </header>
+
+    <main>
+
+        <!-- About Section -->
+        <section class="about">
+            <img src="mano_passport.jpg" alt="Profile Image">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm a web developer passionate about creating responsive and interactive websites.
+                </p>
+            </div>
+        </section>
+
+        <!-- Todo List -->
+        <section>
+            <h2>My List</h2>
+
+            <input
+                type="text"
+                id="itemInput"
+                placeholder="Enter an item"
+            >
+
+            <button id="addBtn">Add Item</button>
+
+            <ul id="itemList"></ul>
+        </section>
+
+        <!-- Random Quote -->
+        <section>
+            <h2>Random Quote</h2>
+
+            <button id="quoteBtn">
+                Get Quote
+            </button>
+
+            <p id="quote"></p>
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <h2>Contact Me</h2>
+
+            <form>
+                <input type="text" placeholder="Name" required>
+
+                <input type="email" placeholder="Email" required>
+
+                <textarea placeholder="Message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Profile</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
