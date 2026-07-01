@@ -1,0 +1,40 @@
+<div class="box"></div>
+
+<style>
+  .box {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0;
+  }
+</style>
+
+<script>
+const box = document.querySelector(".box");
+
+let topPosition = 0;
+let rightPostion = 0;
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowUp") {
+        topPosition -= 10;
+        box.style.top = topPosition + "px";
+    }
+
+    if (event.key === "ArrowDown") {
+        topPosition += 10;
+        box.style.top = topPosition + "px";
+    }
+
+    if (event.key === "ArrowLeft") {
+        rightPostion -= 10;
+        box.style.left = rightPostion + "px";
+    }
+
+    if (event.key === "ArrowRight") {
+        rightPostion += 10;
+        box.style.left = rightPostion + "px";
+    }
+});
+</script>
