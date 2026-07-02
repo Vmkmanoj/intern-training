@@ -15,11 +15,8 @@ export default function Logout() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    localStorage.removeItem("auth_token");
-    localStorage.removeItem("token_type");
-    localStorage.removeItem("userName");
-    localStorage.removeItem("email");
-    localStorage.removeItem("sessionId");
+    localStorage.clear()
+    sessionStorage.clear()
     navigate("/login", { replace: true });
   }, [navigate]);
 
