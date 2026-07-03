@@ -1,4 +1,4 @@
-<h1>🚀 Python & Full Stack Internship Training</h1>
+<h1> Python & Full Stack Internship Training</h1>
 
 <blockquote>
   <p>A collection of my internship tasks, Python practice programs, backend development, frontend projects, and healthcare applications built throughout my training.</p>
@@ -6,23 +6,23 @@
 
 <hr>
 
-<h2>📌 About This Repository</h2>
+<h2> About This Repository</h2>
 
 <p>This repository documents my learning journey during my internship. It contains hands-on exercises, mini-projects, backend development, frontend applications, and real-world projects completed week by week.</p>
 
 <p>Throughout this training, I explored:</p>
 
 <ul>
-  <li>🐍 Python Programming</li>
-  <li>🏗️ Object-Oriented Programming (OOP)</li>
-  <li>⚡ FastAPI Backend Development</li>
-  <li>🗄️ SQL Database Integration</li>
-  <li>🔄 Server-Sent Events (SSE)</li>
-  <li>🌐 WebSockets</li>
-  <li>⚛️ React.js</li>
-  <li>⚡ Vite</li>
-  <li>🎨 Tailwind CSS</li>
-  <li>📝 TypeScript</li>
+  <li>Python Programming</li>
+  <li> Object-Oriented Programming (OOP)</li>
+  <li>FastAPI Backend Development</li>
+  <li>SQL Database Integration</li>
+  <li>Server-Sent Events (SSE)</li>
+  <li> WebSockets</li>
+  <li>React.js</li>
+  <li> Vite</li>
+  <li> Tailwind CSS</li>
+  <li>TypeScript</li>
 </ul>
 
 <p>The repository demonstrates my progression from learning Python fundamentals to developing full-stack applications.</p>
@@ -295,5 +295,3 @@ python main.py
 <hr>
 
 <h2>📬 Contact</h2>
-<p>If you have suggestions, feedback, or would like to collaborate, feel free to connect with me.</p>
-<p>⭐ <strong>If you found this repository helpful, consider giving it a star!</strong></p>
