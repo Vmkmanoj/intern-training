@@ -226,7 +226,7 @@
 
 <h2>🛠️ Technologies Used</h2>
 
-<p><strong>Languages:</strong> Python, JavaScript, TypeScript, HTML5, CSS3<br>
+<p><strong>Languages:</strong> Python, JavaScript, TypeScript, HTML5, CSS5<br>
 <strong>Frontend:</strong> React.js, Vite, Tailwind CSS<br>
 <strong>Backend & Database:</strong> FastAPI, SQL<br>
 <strong>Real-Time Communication:</strong> Server-Sent Events (SSE), WebSockets<br>
