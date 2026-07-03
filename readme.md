@@ -1,31 +1,36 @@
 <h1>🚀 Python & Full Stack Internship Training</h1>
-    
-    <blockquote>
-        <p>A collection of my internship tasks, Python practice programs, backend development, frontend projects, and healthcare applications built throughout my training.</p>
-    </blockquote>
 
-    <hr>
+<blockquote>
+  <p>A collection of my internship tasks, Python practice programs, backend development, frontend projects, and healthcare applications built throughout my training.</p>
+</blockquote>
 
-    <h2>📌 About This Repository</h2>
-    <p>This repository documents my learning journey during my internship. It contains hands-on exercises, mini-projects, backend development, frontend applications, and real-world projects completed week by week.</p>
-    <p>Throughout this training, I explored:</p>
-    <ul>
-        <li>🐍 Python Programming</li>
-        <li>🏗️ Object-Oriented Programming (OOP)</li>
-        <li>⚡ FastAPI Backend Development</li>
-        <li>🗄️ SQL Database Integration</li>
-        <li>🔄 Server-Sent Events (SSE)</li>
-        <li>🌐 WebSockets</li>
-        <li>⚛️ React.js</li>
-        <li>⚡ Vite</li>
-        <li>🎨 Tailwind CSS</li>
-        <li>📝 TypeScript</li>
-    </ul>
-    <p>The repository demonstrates my progression from learning Python fundamentals to developing full-stack applications.</p>
+<hr>
 
-    <hr>
+<h2>📌 About This Repository</h2>
 
-    <h1>📂 Repository Structure</h1>
+<p>This repository documents my learning journey during my internship. It contains hands-on exercises, mini-projects, backend development, frontend applications, and real-world projects completed week by week.</p>
+
+<p>Throughout this training, I explored:</p>
+
+<ul>
+  <li>🐍 Python Programming</li>
+  <li>🏗️ Object-Oriented Programming (OOP)</li>
+  <li>⚡ FastAPI Backend Development</li>
+  <li>🗄️ SQL Database Integration</li>
+  <li>🔄 Server-Sent Events (SSE)</li>
+  <li>🌐 WebSockets</li>
+  <li>⚛️ React.js</li>
+  <li>⚡ Vite</li>
+  <li>🎨 Tailwind CSS</li>
+  <li>📝 TypeScript</li>
+</ul>
+
+<p>The repository demonstrates my progression from learning Python fundamentals to developing full-stack applications.</p>
+
+<hr>
+
+<h2>📂 Repository Structure</h2>
+
 <pre><code>.
 ├── week1/
 ├── week2/
@@ -35,290 +40,219 @@
 └── helth_care_chatbot/
 </code></pre>
 
-    <hr>
+<hr>
 
-    <h1>📖 Weekly Learning Journey</h1>
+<h2>📖 Weekly Learning Journey</h2>
 
-    <hr>
+<hr>
 
-    <h2>✅ Week 1 – Python Fundamentals</h2>
-    
-    <h3>🎯 Learning Objectives</h3>
-    <ul>
-        <li>Python syntax</li>
-        <li>User input & output</li>
-        <li>Conditional statements</li>
-        <li>Loops</li>
-        <li>Functions</li>
-        <li>Mini console applications</li>
-    </ul>
+<h3>✅ Week 1 – Python Fundamentals</h3>
 
-    <h3>📅 Day 2</h3>
-    <p>Worked on beginner Python programs including:</p>
-    <ul>
-        <li>Hello World</li>
-        <li>User information input</li>
-        <li>Linked List practice</li>
-        <li>Number conversion exercises</li>
-    </ul>
+<p><strong>🎯 Learning Objectives</strong></p>
+<ul>
+  <li>Python syntax</li>
+  <li>User input & output</li>
+  <li>Conditional statements</li>
+  <li>Loops</li>
+  <li>Functions</li>
+  <li>Mini console applications</li>
+</ul>
 
-    <h3>📅 Day 3</h3>
-    <p>Focused on decision-making programs:</p>
-    <ul>
-        <li>Grade Generator</li>
-        <li>Number Classification</li>
-        <li>Password Validation</li>
-        <li>Encapsulation examples</li>
-    </ul>
+<p><strong>📅 Day 2</strong></p>
+<p>Worked on beginner Python programs including:</p>
+<ul>
+  <li>Hello World</li>
+  <li>User information input</li>
+  <li>Linked List practice</li>
+  <li>Number conversion exercises</li>
+</ul>
 
-    <h3>📅 Day 4</h3>
-    <p>Practiced loop-based programming by building:</p>
-    <ul>
-        <li>Multiplication Table</li>
-        <li>Sum Calculator</li>
-        <li>FizzBuzz</li>
-        <li>Number Guessing Game</li>
-    </ul>
+<p><strong>📅 Day 3</strong></p>
+<p>Focused on decision-making programs:</p>
+<ul>
+  <li>Grade Generator</li>
+  <li>Number Classification</li>
+  <li>Password Validation</li>
+  <li>Encapsulation examples</li>
+</ul>
 
-    <h3>📅 Day 5</h3>
-    <p>Built simple console applications:</p>
-    <ul>
-        <li>📒 Contact Book</li>
-        <li>✅ To-Do List</li>
-    </ul>
-    <p>Created a <code>main.py</code> file to execute and connect all Week 1 programs.</p>
+<p><strong>📅 Day 4</strong></p>
+<p>Practiced loop-based programming by building:</p>
+<ul>
+  <li>Multiplication Table</li>
+  <li>Sum Calculator</li>
+  <li>FizzBuzz</li>
+  <li>Number Guessing Game</li>
+</ul>
 
-    <hr>
+<p><strong>📅 Day 5</strong></p>
+<p>Built simple console applications:</p>
+<ul>
+  <li>📒 Contact Book</li>
+  <li>✅ To-Do List</li>
+</ul>
+<p>Created a <code>main.py</code> file to execute and connect all Week 1 programs.</p>
 
-    <h2>✅ Week 2 – Object-Oriented Programming (OOP)</h2>
-    
-    <h3>🎯 Learning Objectives</h3>
-    <ul>
-        <li>Classes</li>
-        <li>Objects</li>
-        <li>Inheritance</li>
-        <li>Encapsulation</li>
-        <li>Abstraction</li>
-        <li>Polymorphism</li>
-    </ul>
+<hr>
 
-    <h3>📅 Day 5</h3>
-    <p>Developed a simple ATM/Banking application featuring:</p>
-    <ul>
-        <li>Deposit</li>
-        <li>Withdraw</li>
-        <li>Balance Check</li>
-        <li>PIN Verification</li>
-    </ul>
+<h3>✅ Week 2 – Object-Oriented Programming (OOP)</h3>
 
-    <h3>📅 Day 6</h3>
-    <p>Implemented Shape classes including:</p>
-    <ul>
-        <li>Rectangle</li>
-        <li>Circle</li>
-    </ul>
-    <p>Calculated their areas using object-oriented concepts.</p>
+<p><strong>🎯 Learning Objectives</strong></p>
+<ul>
+  <li>Classes & Objects</li>
+  <li>Inheritance</li>
+  <li>Encapsulation</li>
+  <li>Abstraction</li>
+  <li>Polymorphism</li>
+</ul>
 
-    <h3>📅 Day 7 & Day 8</h3>
-    <p>Worked on project organization by creating:</p>
-    <ul>
-        <li>Modular Python applications</li>
-        <li>Better folder structure</li>
-        <li>Reusable code</li>
-    </ul>
+<p><strong>📅 Day 5</strong></p>
+<p>Developed a simple ATM/Banking application featuring:</p>
+<ul>
+  <li>Deposit</li>
+  <li>Withdraw</li>
+  <li>Balance Check</li>
+  <li>PIN Verification</li>
+</ul>
 
-    <hr>
+<p><strong>📅 Day 6</strong></p>
+<p>Implemented Shape classes including:</p>
+<ul>
+  <li>Rectangle</li>
+  <li>Circle</li>
+</ul>
+<p>Calculated their areas using object-oriented concepts.</p>
 
-    <h2>✅ Week 3 – Backend Development with FastAPI</h2>
-    
-    <h3>🎯 Learning Objectives</h3>
-    <ul>
-        <li>REST API Development</li>
-        <li>FastAPI</li>
-        <li>SQL Database</li>
-        <li>Routing</li>
-        <li>Database Migrations</li>
-        <li>Backend Architecture</li>
-    </ul>
+<p><strong>📅 Day 7 & Day 8</strong></p>
+<p>Worked on project organization by creating:</p>
+<ul>
+  <li>Modular Python applications</li>
+  <li>Better folder structure</li>
+  <li>Reusable code</li>
+</ul>
 
-    <h3>📅 Day 13 & Day 14</h3>
-    <p>Developed backend applications using FastAPI.</p>
-    <p>Topics covered:</p>
-    <ul>
-        <li>API Routing</li>
-        <li>Database Configuration</li>
-        <li>Migration Setup</li>
-        <li>CRUD Structure</li>
-        <li>Project Organization</li>
-    </ul>
-    <p>The project includes:</p>
-    <ul>
-        <li>FastAPI Application</li>
-        <li>Routers</li>
-        <li>Database Connection</li>
-        <li>Migration Runner</li>
-        <li>Configuration Files</li>
-    </ul>
+<hr>
 
-    <h3>📅 Day 15</h3>
-    <p>Implemented real-time communication features:</p>
-    <ul>
-        <li>🔄 Server-Sent Events (SSE)</li>
-        <li>🌐 WebSockets</li>
-        <li>💬 Chat Application</li>
-        <li>🗄️ SQL Database Integration</li>
-    </ul>
+<h3>✅ Week 3 – Backend Development with FastAPI</h3>
 
-    <hr>
+<p><strong>🎯 Learning Objectives</strong></p>
+<ul>
+  <li>REST API Development</li>
+  <li>FastAPI & SQL Database</li>
+  <li>Routing</li>
+  <li>Database Migrations</li>
+  <li>Backend Architecture</li>
+</ul>
 
-    <h2>✅ Week 4 – Frontend Development</h2>
-    
-    <h3>🎯 Learning Objectives</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Vite</li>
-        <li>Tailwind CSS</li>
-        <li>TypeScript</li>
-    </ul>
+<p><strong>📅 Day 13 & Day 14</strong></p>
+<p>Developed backend applications using FastAPI. Topics covered:</p>
+<ul>
+  <li>API Routing & Database Configuration</li>
+  <li>Migration Setup & CRUD Structure</li>
+  <li>Project Organization</li>
+</ul>
 
-    <h3>📅 Day 16 & Day 17</h3>
-    <p>Created interactive webpages using:</p>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>DOM Manipulation</li>
-        <li>Event Handling</li>
-    </ul>
+<p>The project includes:</p>
+<ul>
+  <li>FastAPI Application & Routers</li>
+  <li>Database Connection</li>
+  <li>Migration Runner & Configuration Files</li>
+</ul>
 
-    <h3>📅 Day 18</h3>
-    <p>Started learning modern frontend tooling using:</p>
-    <ul>
-        <li>Vite</li>
-        <li>React</li>
-    </ul>
+<p><strong>📅 Day 15</strong></p>
+<p>Implemented real-time communication features:</p>
+<ul>
+  <li>🔄 Server-Sent Events (SSE)</li>
+  <li>🌐 WebSockets</li>
+  <li>💬 Chat Application</li>
+  <li>🗄️ SQL Database Integration</li>
+</ul>
 
-    <h3>📅 Day 19</h3>
-    <p>Expanded React knowledge by working with:</p>
-    <ul>
-        <li>Components</li>
-        <li>Props</li>
-        <li>State Management</li>
-        <li>Conditional Rendering</li>
-    </ul>
+<hr>
 
-    <h3>📅 Day 20</h3>
-    <p>Built a complete frontend application using:</p>
-    <ul>
-        <li>React</li>
-        <li>Vite</li>
-        <li>TypeScript</li>
-        <li>Tailwind CSS</li>
-    </ul>
+<h3>✅ Week 4 – Frontend Development</h3>
 
-    <hr>
+<p><strong>🎯 Learning Objectives</strong></p>
+<ul>
+  <li>HTML, CSS, JavaScript</li>
+  <li>React & Vite</li>
+  <li>Tailwind CSS</li>
+  <li>TypeScript</li>
+</ul>
 
-    <h1>🏥 Major Projects</h1>
+<p><strong>📅 Day 16 & Day 17</strong></p>
+<p>Created interactive webpages using:</p>
+<ul>
+  <li>HTML & CSS</li>
+  <li>JavaScript (DOM Manipulation & Event Handling)</li>
+</ul>
 
-    <h2>🩺 Healthcare Application</h2>
-    <p>Frontend healthcare application developed using:</p>
-    <ul>
-        <li>React</li>
-        <li>TypeScript</li>
-        <li>Modern UI Design</li>
-    </ul>
-    <p><strong>Location</strong></p>
-<pre><code>helthcareApp/
-</code></pre>
+<p><strong>📅 Day 18</strong></p>
+<p>Started learning modern frontend tooling using Vite and React.</p>
 
-    <hr>
+<p><strong>📅 Day 19</strong></p>
+<p>Expanded React knowledge by working with Components, Props, State Management, and Conditional Rendering.</p>
 
-    <h2>🤖 Healthcare Chatbot</h2>
-    <p>Backend chatbot application featuring:</p>
-    <ul>
-        <li>Python</li>
-        <li>FastAPI</li>
-        <li>Redis</li>
-        <li>REST APIs</li>
-        <li>SQL Database</li>
-        <li>Testing</li>
-    </ul>
-    <p><strong>Location</strong></p>
-<pre><code>helth_care_chatbot/
-</code></pre>
+<p><strong>📅 Day 20</strong></p>
+<p>Built a complete frontend application using React, Vite, TypeScript, and Tailwind CSS.</p>
 
-    <img src="screenshots/image.png" width="800" alt="Screenshot 1">
-    <img src="screenshots/image3.png" width="800" alt="Screenshot 2">
-    <img src="screenshots/image2.png" width="800" alt="Screenshot 3">
-    <img src="screenshots/image-1.png" width="800" alt="Screenshot 4">
+<hr>
 
-    <hr>
+<h2>🏥 Major Projects</h2>
 
-    <h1>🛠️ Technologies Used</h1>
-    
-    <h3>Languages</h3>
-    <ul>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-    </ul>
+<h3>🩺 Healthcare Application</h3>
+<p>Frontend healthcare application developed using React, TypeScript, and Modern UI Design.</p>
+<p><strong>Location:</strong> <code>helthcareApp/</code></p>
 
-    <h3>Frontend</h3>
-    <ul>
-        <li>React.js</li>
-        <li>Vite</li>
-        <li>Tailwind CSS</li>
-    </ul>
+<hr>
 
-    <h3>Backend</h3>
-    <ul>
-        <li>FastAPI</li>
-    </ul>
+<h3>🤖 Healthcare Chatbot</h3>
+<p>Backend chatbot application featuring Python, FastAPI, Redis, REST APIs, SQL Database, and Testing.</p>
+<p><strong>Location:</strong> <code>helth_care_chatbot/</code></p>
 
-    <h3>Database</h3>
-    <ul>
-        <li>SQL</li>
-    </ul>
+<br>
 
-    <h3>Real-Time Communication</h3>
-    <ul>
-        <li>Server-Sent Events (SSE)</li>
-        <li>WebSockets</li>
-    </ul>
+<div align="center">
+  <img src="screenshots/image.png" width="800" alt="Screenshot 1">
+  <br><br>
+  <img src="screenshots/image3.png" width="800" alt="Screenshot 2">
+  <br><br>
+  <img src="screenshots/image-2.png" width="800" alt="Screenshot 3">
+  <br><br>
+  <img src="screenshots/image-1.png" width="800" alt="Screenshot 4">
+</div>
 
-    <h3>Tools</h3>
-    <ul>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>VS Code</li>
-    </ul>
+<hr>
 
-    <hr>
+<h2>🛠️ Technologies Used</h2>
 
-    <h1>▶️ Getting Started</h1>
+<p><strong>Languages:</strong> Python, JavaScript, TypeScript, HTML5, CSS3<br>
+<strong>Frontend:</strong> React.js, Vite, Tailwind CSS<br>
+<strong>Backend & Database:</strong> FastAPI, SQL<br>
+<strong>Real-Time Communication:</strong> Server-Sent Events (SSE), WebSockets<br>
+<strong>Tools:</strong> Git, GitHub, VS Code</p>
 
-    <h2>Clone Repository</h2>
+<hr>
+
+<h2>▶️ Getting Started</h2>
+
+<h3>Clone Repository</h3>
 <pre><code>git clone https://github.com/your-username/your-repository.git
 cd your-repository
 </code></pre>
 
-    <h2>Run Week 4 React Application</h2>
+<h3>Run Week 4 React Application</h3>
 <pre><code>cd week4/day20/app
 npm install
 npm run dev
 </code></pre>
 
-    <h2>Production Build</h2>
+<h3>Production Build</h3>
 <pre><code>npm run build
 npm run preview
 </code></pre>
 
-    <h2>Run Python Backend</h2>
+<h3>Run Python Backend</h3>
 <pre><code>python -m venv .venv
 
 # Windows
@@ -328,43 +262,38 @@ npm run preview
 source .venv/bin/activate
 
 pip install -r requirements.txt
-
 python main.py
 </code></pre>
 
-    <hr>
+<hr>
 
-    <h1>📈 Skills Gained</h1>
-    <p>✔ Python Programming<br>
-    ✔ Object-Oriented Programming<br>
-    ✔ Data Structures<br>
-    ✔ FastAPI<br>
-    ✔ REST API Development<br>
-    ✔ SQL Database<br>
-    ✔ WebSockets<br>
-    ✔ Server-Sent Events (SSE)<br>
-    ✔ React<br>
-    ✔ Vite<br>
-    ✔ Tailwind CSS<br>
-    ✔ TypeScript<br>
-    ✔ Git & GitHub<br>
-    ✔ Problem Solving</p>
+<h2>📈 Skills Gained</h2>
+<p>
+  ✔ Python & OOP<br>
+  ✔ Data Structures<br>
+  ✔ FastAPI & REST APIs<br>
+  ✔ SQL Database<br>
+  ✔ WebSockets & SSE<br>
+  ✔ React, Vite & TypeScript<br>
+  ✔ Tailwind CSS<br>
+  ✔ Git, GitHub & Problem Solving
+</p>
 
-    <hr>
+<hr>
 
-    <h1>🎯 Future Improvements</h1>
-    <ul>
-        <li>Add deployment guides</li>
-        <li>Improve project documentation</li>
-        <li>Write API documentation</li>
-        <li>Add screenshots and demos</li>
-        <li>Dockerize backend projects</li>
-        <li>Implement CI/CD pipeline</li>
-        <li>Increase automated test coverage</li>
-    </ul>
+<h2>🎯 Future Improvements</h2>
+<ul>
+  <li>Add deployment guides</li>
+  <li>Improve project documentation</li>
+  <li>Write API documentation</li>
+  <li>Add screenshots and demos</li>
+  <li>Dockerize backend projects</li>
+  <li>Implement CI/CD pipeline</li>
+  <li>Increase automated test coverage</li>
+</ul>
 
-    <hr>
+<hr>
 
-    <h1>📬 Contact</h1>
-    <p>If you have suggestions, feedback, or would like to collaborate, feel free to connect with me.</p>
-    <p>⭐ If you found this repository helpful, consider giving it a star!</p>
+<h2>📬 Contact</h2>
+<p>If you have suggestions, feedback, or would like to collaborate, feel free to connect with me.</p>
+<p>⭐ <strong>If you found this repository helpful, consider giving it a star!</strong></p>
