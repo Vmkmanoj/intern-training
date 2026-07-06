@@ -26,6 +26,12 @@ def postGet(userPost: Poster, db: Session = Depends(get_db)):
 
     return {"message": "post added successfully...!", "postId": post.postId}
 
+@postRouter.get("/get-all-post")
+def getAllPost(db:Session = Depends(get_db)):
+
+    allPost = db.query(Post).all()
+
+    return allPost
 
 @postRouter.get("/get-post/{postId}")
 def getPost(postId: UUID, db: Session = Depends(get_db)):
