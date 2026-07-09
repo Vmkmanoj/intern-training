@@ -196,6 +196,20 @@
 <p><strong>📅 Day 20</strong></p>
 <p>Built a complete frontend application using React, Vite, TypeScript, and Tailwind CSS.</p>
 
+<p><strong>📅 Day 21</strong></p>
+<p>Connect with React frontend to  Day-14 tasks backend using TanStack Query.</p>
+
+<p><strong>📅 Day 22</strong></p>
+<p>fullstack integration with live updates and CORS auth creating chatApp and live SSE chatBot</p>
+
+<p><strong>📅 Day 23</strong></p>
+<p>fullstack integration with live updates and CORS auth creating chatApp and live SSE chatBot</p>
+
+
+
+
+
+
 <hr>
 
 <h2>🏥 Major Projects</h2>
