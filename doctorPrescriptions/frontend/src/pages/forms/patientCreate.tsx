@@ -1,4 +1,4 @@
-import React, {useEffect, useState,type ReactNode, type FormEvent } from "react";
+import React, { useMemo, useState, type ReactNode, type FormEvent } from "react";
 import {
   Cross,
   Menu,
@@ -9,7 +9,6 @@ import {
   CalendarDays,
   Stethoscope,
   Grid2x2,
-  Receipt,
   BarChart3,
   MessageSquare,
   Settings,
@@ -27,7 +26,7 @@ import {
   UserRoundPlus,
   type LucideIcon,
 } from "lucide-react";
-import {  useNavigate } from "@tanstack/react-router";
+import { useNavigate } from "@tanstack/react-router";
 import { useDoctor } from "../../hooks/doctor";
 
 /* ---------- Types ---------- */
@@ -64,13 +63,13 @@ const navItems: NavItem[] = [
   { label: "Settings", icon: Settings },
 ];
 
-const doctorOptions = [
-  "Dr. Arjun Mehta - Cardiology",
-  "Dr. Priya Nair - Neurology",
-  "Dr. Rahul Verma - Pediatrics",
-  "Dr. Neha Singh - Orthopedic",
-  "Dr. Amit Patel - General Medicine",
-];
+// const doctorOptions = [
+//   "Dr. Arjun Mehta - Cardiology",
+//   "Dr. Priya Nair - Neurology",
+//   "Dr. Rahul Verma - Pediatrics",
+//   "Dr. Neha Singh - Orthopedic",
+//   "Dr. Amit Patel - General Medicine",
+// ];
 
 const genderOptions = ["Male", "Female", "Other"];
 const bloodGroupOptions = ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"];
@@ -334,6 +333,11 @@ function TipPanel() {
 }
 
 
+interface DoctorApiRecord {
+  Id: string;
+  Name: string;
+}
+
 interface DoctorOption {
   label: string;
   value: string;
@@ -342,24 +346,19 @@ interface DoctorOption {
 
 function RegisterPatientForm() {
   const [form, setForm] = useState<PatientForm>(initialForm);
-    const {
+  const {
     data,
-    isLoading,
-    error,
+    // isLoading,
+    // error,
   } = useDoctor();
 
-  const [docters , setDocters] = useState<DoctorOption[]>([]);
-
-  useEffect(() => {
-  if (data?.data) {
-    const doctorList = data.data.map((doctor: any) => ({
+  const docters = useMemo<DoctorOption[]>(() => {
+    if (!data?.data) return [];
+    return data.data.map((doctor: DoctorApiRecord) => ({
       label: doctor.Name,
       value: doctor.Id,
     }));
-
-    setDocters(doctorList);
-  }
-}, [data]);
+  }, [data]);
 
   const set = <K extends keyof PatientForm>(key: K) => (value: string) =>
     setForm((f) => ({ ...f, [key]: value }));
