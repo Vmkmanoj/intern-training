@@ -15,10 +15,6 @@ def register(userRegister : UserRegiser, db : Session = Depends(get_db)):
 
     if usersCheck:
         raise HTTPException(status_code=400,detail="users already register...!")
-    password = userRegister.password
-    print(password)
-    print(type(password))
-    print(len(password))
 
     userResponse = Users(
         name=userRegister.name,
