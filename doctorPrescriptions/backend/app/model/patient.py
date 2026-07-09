@@ -4,7 +4,6 @@ from sqlalchemy import Column, String, DateTime, ForeignKey, Text , Integer ,Seq
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from sqlalchemy import Identity
 from app.database import Base
 
 patient_token_seq = Sequence(
