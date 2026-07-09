@@ -1,0 +1,8 @@
+import { createFileRoute } from "@tanstack/react-router";
+import ReceptionistDashboard from "../pages/dashboard/dashboardRecptionist"
+
+
+export const Route = createFileRoute("/receptionist")({
+  component: ReceptionistDashboard,
+});
+
