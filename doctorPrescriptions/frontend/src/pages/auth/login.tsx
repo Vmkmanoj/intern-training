@@ -16,7 +16,7 @@ function LoginForm({ onSwitch }: SwitchProps) {
 const [email, setEmail] = useState("");
 const [password, setPassword] = useState("");
 
-const { mutate, isPending , data} = useLogin();
+const { mutate } = useLogin();
 
 
 const navigate = useNavigate()
@@ -28,11 +28,11 @@ const handleLogin = () => {
       Password: password,
     },
     {
-      onSuccess: (data : any) => {
-        localStorage.setItem("bearer",data.access_token)
-        localStorage.setItem("username",data.userdetails.userName)
-        localStorage.setItem("roles",data.userdetails.roles)
-        navigate({ to: "/receptionist" as any });
+      onSuccess: (data) => {
+        localStorage.setItem("bearer", data.access_token);
+        localStorage.setItem("username", data.userdetails.userName);
+        localStorage.setItem("roles", data.userdetails.roles);
+        navigate({ to: "/receptionist" as const });
       },
     }
   );

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import InputField from "../../component/inputFiled";
-import InputSelect from "../../component/inputSelect";
 
 import {
   User,
