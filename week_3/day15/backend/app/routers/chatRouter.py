@@ -23,7 +23,6 @@ def create_session(sessoinName: CreateSession, db: Session = Depends(get_db)):
     createSessoin = ChatSession(
         session_name=sessoinName.session_name,
         messages=[],
-        createdby=sessoinName.createdby,
     )
 
     db.add(createSessoin)
@@ -44,7 +43,6 @@ def getAllSession(db: Session = Depends(get_db)):
             {
                 "session_id": i.id,
                 "session_name": i.session_name,
-                "createdBy": i.createdby,
             }
         )
     return allIds
