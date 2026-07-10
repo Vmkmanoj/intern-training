@@ -203,7 +203,8 @@
 <p>fullstack integration with live updates and CORS auth creating chatApp and live SSE chatBot</p>
 
 <p><strong>📅 Day 23</strong></p>
-<p>fullstack integration with live updates and CORS auth creating chatApp and live SSE chatBot</p>
+
+<p>Learned the fundamentals of Docker, including containers, images, volumes, networks, and Dockerfiles. Containerized both the FastAPI backend and React frontend by creating Dockerfiles and configuring Docker Compose to run multiple services together. Resolved dependency and environment configuration issues, tested the application inside containers, and gained an understanding of how Docker ensures consistent development and deployment environments..</p>
 
 <p><strong>📅 Day 24</strong></p>
 <p>Configured a GitHub Actions CI pipeline to automate code validation and learned how CI/CD streamlines the build, test, and deployment process. Also explored Docker fundamentals, including containers, images, and Docker Compose.</p>
@@ -213,19 +214,13 @@
   <br><br>
 </div>
 
-
-
 <hr>
 
 <h2>🏥 Major Projects</h2>
 
-<h3>🩺 Healthcare Application</h3>
+<h3>🤖 Healthcare Chatbot</h3>
 <p>Frontend healthcare application developed using React, TypeScript, and Modern UI Design.</p>
 <p><strong>Location:</strong> <code>helthcareApp/</code></p>
-
-<hr>
-
-<h3>🤖 Healthcare Chatbot</h3>
 <p>Backend chatbot application featuring Python, FastAPI, Redis, REST APIs, SQL Database, and Testing.</p>
 <p><strong>Location:</strong> <code>helth_care_chatbot/</code></p>
 
@@ -262,11 +257,11 @@
 <div align="center">
   <img src="screenshots/doctor/image.png" width="800" alt="Screenshot 1">
   <br><br>
-  <img src="screenshots/doctor/image3.png" width="800" alt="Screenshot 2">
+  <img src="screenshots/doctor/image-1.png" width="800" alt="Screenshot 4">
+  <br><br>
+  <img src="screenshots/doctor/image-3.png" width="800" alt="Screenshot 2">
   <br><br>
   <img src="screenshots/doctor/image-2.png" width="800" alt="Screenshot 3">
-  <br><br>
-  <img src="screenshots/doctor/image-1.png" width="800" alt="Screenshot 4">
 </div>
 
 <hr>
