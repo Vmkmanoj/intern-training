@@ -32,12 +32,19 @@
 <h2>📂 Repository Structure</h2>
 
 <pre><code>.
+├── .github/
+├── helth_care_chatbot/
 ├── week1/
 ├── week2/
 ├── week3/
 ├── week4/
 ├── helthcareApp/
-└── helth_care_chatbot/
+├── helth_care_chatbot/
+├── week5/
+├── doctorPrescriptions/
+├── screenshots/
+├── project/
+├── practice/
 </code></pre>
 
 <hr>
