@@ -32,12 +32,19 @@
 <h2>📂 Repository Structure</h2>
 
 <pre><code>.
+├── .github/
+├── helth_care_chatbot/
 ├── week1/
 ├── week2/
 ├── week3/
 ├── week4/
 ├── helthcareApp/
-└── helth_care_chatbot/
+├── helth_care_chatbot/
+├── week5/
+├── doctorPrescriptions/
+├── screenshots/
+├── project/
+├── practice/
 </code></pre>
 
 <hr>
@@ -203,24 +210,24 @@
 <p>fullstack integration with live updates and CORS auth creating chatApp and live SSE chatBot</p>
 
 <p><strong>📅 Day 23</strong></p>
-<p>fullstack integration with live updates and CORS auth creating chatApp and live SSE chatBot</p>
 
+<p>Learned the fundamentals of Docker, including containers, images, volumes, networks, and Dockerfiles. Containerized both the FastAPI backend and React frontend by creating Dockerfiles and configuring Docker Compose to run multiple services together. Resolved dependency and environment configuration issues, tested the application inside containers, and gained an understanding of how Docker ensures consistent development and deployment environments..</p>
 
+<p><strong>📅 Day 24</strong></p>
+<p>Configured a GitHub Actions CI pipeline to automate code validation and learned how CI/CD streamlines the build, test, and deployment process. Also explored Docker fundamentals, including containers, images, and Docker Compose.</p>
 
-
-
+<div align="center">
+  <img src="screenshots/CI.png" width="800" alt="Screenshot 1">
+  <br><br>
+</div>
 
 <hr>
 
 <h2>🏥 Major Projects</h2>
 
-<h3>🩺 Healthcare Application</h3>
+<h3>🤖 Healthcare Chatbot</h3>
 <p>Frontend healthcare application developed using React, TypeScript, and Modern UI Design.</p>
 <p><strong>Location:</strong> <code>helthcareApp/</code></p>
-
-<hr>
-
-<h3>🤖 Healthcare Chatbot</h3>
 <p>Backend chatbot application featuring Python, FastAPI, Redis, REST APIs, SQL Database, and Testing.</p>
 <p><strong>Location:</strong> <code>helth_care_chatbot/</code></p>
 
@@ -238,6 +245,56 @@
 
 <hr>
 
+<h3>🤖 DoctorPrescription</h3>
+<p>Working on developing a hospital management system where receptionists can register patients, doctors can manage prescriptions, and the dashboard displays key statistics such as total doctors, total patients, and today's patients. I am building REST APIs using FastAPI, integrating the React frontend with TanStack Query, implementing JWT authentication, managing PostgreSQL with SQLAlchemy and Alembic, and setting up Docker and CI/CD for deployment.</p>
+<p><strong>Location:</strong> <code>DoctorPrescription/</code></p>
+
+<ul>
+  <li>Developing backend APIs using FastAPI and PostgreSQL.</li>
+  <li>Implementing JWT authentication and role-based access.</li>
+  <li>Building the React frontend with TanStack Query.</li>
+  <li>Creating patient registration, doctor management, and dashboard modules.</li>
+  <li>Managing database schema using SQLAlchemy and Alembic.</li>
+  <li>Containerizing the application with Docker and configuring CI/CD for automated deployment.</li>
+  <li>Fixing bugs, integrating APIs, and performing end-to-end testing.</li>
+</ul>
+
+<br>
+
+<div align="center">
+  <img src="screenshots/doctor/image.png" width="800" alt="Screenshot 1">
+  <br><br>
+  <img src="screenshots/doctor/image-1.png" width="800" alt="Screenshot 4">
+  <br><br>
+  <img src="screenshots/doctor/image-3.png" width="800" alt="Screenshot 2">
+  <br><br>
+  <img src="screenshots/doctor/image-2.png" width="800" alt="Screenshot 3">
+</div>
+
+<hr>
+
+<h3>🤖 chatbox using webshocket</h3>
+<p>Worked on implementing a real-time chatbot using WebSocket to enable instant communication between the frontend and backend. Developed chat session management to create and maintain separate conversations for each user, and stored session history and chat messages in the database for future retrieval. Integrated the React frontend with the WebSocket APIs, implemented functionality to load previous conversations, optimized message handling, and performed end-to-end testing to ensure reliable real-time communication.</p>
+<p><strong>Location:</strong> <code>week_3/day15/</code></p>
+
+<ul>
+  <li>Developing backend APIs using FastAPI and PostgreSQL.</li>
+  <li>Implementing JWT authentication and role-based access.</li>
+  <li>Managing database schema using SQLAlchemy and Alembic.</li>
+</ul>
+
+<br>
+
+<div align="center">
+  <img src="screenshots/chatbox/image-2.png" width="800" alt="Screenshot 3">
+  <br><br>
+  <img src="screenshots/chatbox/image.png" width="800" alt="Screenshot 1">
+  <br><br>
+  <img src="screenshots/chatbox/image-1.png" width="800" alt="Screenshot 4">
+</div>
+
+<hr>
+
 <h2>🛠️ Technologies Used</h2>
 
 <p><strong>Languages:</strong> Python, JavaScript, TypeScript, HTML5, CSS5<br>
@@ -251,8 +308,8 @@
 <h2>▶️ Getting Started</h2>
 
 <h3>Clone Repository</h3>
-<pre><code>git clone https://github.com/your-username/your-repository.git
-cd your-repository
+<pre><code>git clone https://github.com/Vmkmanoj/intern-training.git
+cd intern-training
 </code></pre>
 
 <h3>Run Week 4 React Application</h3>
@@ -308,4 +365,3 @@ python main.py
 
 <hr>
 
-<h2>📬 Contact</h2>
